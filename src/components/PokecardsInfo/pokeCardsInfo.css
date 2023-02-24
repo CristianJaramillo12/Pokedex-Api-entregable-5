@@ -1,0 +1,224 @@
+.box_card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 7em;
+}
+
+.box_header_pokedex {
+  width: 100%;
+  height: 15vh;
+  background-color: yellow;
+}
+
+.box_header_pokedex1 {
+  width: 100%;
+  height: 10vh;
+  background-color: #DD1A1A;
+}
+
+.box_header_pokedex2 {
+  width: 100%;
+  height: 5vh;
+  background-color: #0C0C0C;
+}
+
+.figure_pokedex1 {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  background-color: white;
+  border: 8px solid black;
+  top: 2.2em;
+  right: 5em;
+  border-radius: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.figure_pokedex2 {
+  width: 40px;
+  height: 40px;
+  border-radius: 2em;
+  background-color: #212121;
+  border: 8px solid black;
+}
+
+.img_pokedex {
+  position: absolute;
+  width: 300px;
+  height: 50px;
+  top: 1em;
+  left: 7em;
+}
+
+.box_container1 {
+  width: 100%;
+  height: 130vh;
+  max-width: 1024px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+  box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.40);
+}
+
+.box_header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.box_header_color {
+  width: 100%;
+  height: 20vh;
+  background: linear-gradient(178.92deg, #7EC6C5 0.92%, #ABDAC6 47.96%, #CAE099 99.08%);
+}
+
+.box_header_img {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  left: 24em;
+  top: 4em;
+}
+
+.box_title {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.box_id {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  padding-top: 0.4em;
+  border: 2px solid #D3D3D3;
+}
+
+.box_name {
+  text-transform: capitalize;
+  font-size: 45px;
+}
+
+.box_character {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5em;
+}
+
+.bx_character {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.4em;
+}
+
+.box_character_letter {
+  font-size: 16px;
+}
+
+.box_character_number {
+  font-size: 24px;
+}
+
+.box_types {
+  width: 100%;
+  max-width: 820px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 1em;
+}
+
+.box_types_title {
+  text-align: center;
+  padding-bottom: 1em;
+}
+
+.box_typesSkills {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+}
+
+.box_types_1 {
+  width: 190px;
+  height: 40px;
+  box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.40);
+  text-align: center;
+}
+
+.box_stats {
+  width: 100%;
+  max-width: 820px;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  margin-top: 2em;
+}
+
+.box_stats_title {
+  font-size: 35px;
+}
+
+.box_stats_conteienr {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.box_stats_total {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 1em;
+}
+
+.box_container2 {
+  width: 100%;
+  max-width: 1024px;
+  margin-bottom: 3em;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.40);
+}
+
+.box_movements_title {
+  width: 100%;
+  max-width: 820px;
+  margin-top: 1em;
+  font-size: 35px;
+}
+
+.box_movements {
+  margin-top: 1em;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  row-gap: 1em;
+  gap: 1em;
+  margin-bottom: 3em;
+}
+
+.box_unit_movements {
+  width: 150px;
+  height: 30px;
+  text-align: center;
+  border-radius: 1em;
+  background-color: #E5E5E5;
+  box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.40);
+}
+
+
+
